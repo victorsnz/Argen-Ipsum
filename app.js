@@ -7,11 +7,11 @@ button.addEventListener('click', function(){
     var newAuthor = [];
 
     let lorem =[
-        {"quote":"No tiene nada de malo ser un periodista de segunda selección que vive contando intimidades ajenas y faltando el respeto a todo el mundo, y cuando digo de segunda selección, lo digo por un periodista que no mide sus palabras y lastima con lo que dice. También me duele que me digan que soy el rating de ShowMatch, por favor, yo no manejo el rating... yo manejo un Rolls Royce.",
+        {"quote":"No tiene nada de malo ser hijo de un millonario, como no tiene nada de malo ser un periodista de segunda selección que vive contando intimidades ajenas y faltando el respeto a todo el mundo, y cuando digo de segunda selección, lo digo por un periodista que no mide sus palabras y lastima con lo que dice. También me duele que me digan que soy el rating de ShowMatch, por favor, yo no manejo el rating... yo manejo un Rolls Royce.",
         "by":"Ricardo Fort","lenght":"medium"
     },
-        {"quote":"—Si está caliente, lo acabaron de usar.\n—No. Pero se le está quemando lo que está adentro ¿De quién es esto?\n—No, salta solo.\n...\n—¿Qué hiciste? ¡MAMÁ! ¡SACÁ LA MANO DE AHÍ, CARAJO!\n—No, estoy con el pan, nada más.\n—¡ACABA DE CORTAR LA LECTRICIDAD PORQUE METISTE UN CUTU-CUCHILLO Y TE PODÉS QUEDAR ELECTRIFICADA, LOCA!\n—Ah, bueno, no importa. De algo hay que morir.\n—Yo notepocreer...\n—Saqué el pan, Ricardo.\n—¡MAMÁ, CORTASTE TODA LA LOZ. TOCASTE ALGO...!",
-        "by":"Ricardo Fort","lenght":"long"
+        {"quote":"—¿Qué hiciste? ¡MAMÁ! ¡SACÁ LA MANO DE AHÍ, CARAJO!\n—No, estoy con el pan, nada más.\n—¡ACABA DE CORTAR LA LECTRICIDAD PORQUE METISTE UN CUTU-CUCHILLO Y TE PODÉS QUEDAR ELECTRIFICADA, LOCA!\n—Ah, bueno, no importa. De algo hay que morir.\n—Yo notepocreer...\n—Saqué el pan, Ricardo.\n—¡MAMÁ, CORTASTE TODA LA LOZ. TOCASTE ALGO...!",
+        "by":"Ricardo Fort","lenght":"medium"
     },
         {"quote":"ALGUIEN LE PUEDE DECIR EL PAPEL LAMENTABLE QUE ESTA HACIENDO??",
         "by":"Ricardo Fort (en Twitter)","lenght":"short"
@@ -30,7 +30,7 @@ button.addEventListener('click', function(){
     },
         {"quote":"...Se va a licitar un sistema de vuelos espaciales, mediante el cual desde una plataforma que quizá se instale en la provincia de Córdoba. Esas naves espaciales, con todas las seguridades habidas y por haber, van a salir de la atmósfera, se van a remontar a la estratósfera, y desde ahí elegir el lugar a donde quieran ir. De tal forma, que en una hora y media podremos estar desde Argentina en Japón, Corea o en cualquier parte del mundo. Y por supuesto, los vuelos hacia otros planetas, el día que se detecte, de que en otros planetas también hay vida.","by":"Carlos Menem","lenght":"long"
     },
-        {"quote":"—Usted avaló la bomba a la AMIA.\n—¡No, no puede decir semejante barbaridad! Mire, la verdad...\n—Usted avaló la bomba a la AMIA.\n—De la única persona que uno esperaría semejante barbaridad, es de usted. ¡Usted no puede decir semejante barbaridad!\n—Nos conocemos bien, eh...\n—¡No! ¡No puede decir eso!\n—Nos conocemos bien.\n—Usted tiene que arrepentirse de lo que dijo.\n—No, no me voy a arrepentir.\n—¡Usted se tiene que arrepentir porque yo no hice nada de eso!\n—Bueeenoooo... Tranquiloooo\n—¿Cómo puede decir eso?\n—Noooo... Eso noooooo...\n—¿Cómo vas a decir eso, Judío hijo de puta?","by":"Alberto Samid vs Mauro Viale","lenght":"long"
+        {"quote":"—Usted avaló la bomba a la AMIA.\n—¡No, no puede decir semejante barbaridad! Mire, la verdad...\n—Usted avaló la bomba a la AMIA.\n—De la única persona que uno esperaría semejante barbaridad, es de usted. ¡Usted no puede decir semejante barbaridad!\n—Nos conocemos bien, eh...\n—¡No! ¡No puede decir eso!\n—Nos conocemos bien.\n—Usted tiene que arrepentirse de lo que dijo.\n—No, no me voy a arrepentir.\n—¡Usted se tiene que arrepentir porque yo no hice nada de eso!\n—Bueeenoooo... Tranquiloooo\n—¿Cómo puede decir eso?\n—Noooo... Eso noooooo...\n—¿Cómo vas a decir eso, Judío hijo de  ̷p̷u̷t̷a̷?","by":"Alberto Samid vs Mauro Viale","lenght":"long"
     },
         {"quote":"Puede fallar... puede fallar.",
         "by":"Tusam",
@@ -86,7 +86,7 @@ button.addEventListener('click', function(){
     }
     ]
         
-    let ALorem = lorem[Math.floor(Math.random()*lorem.length)];
+    let ALorem = lorem[Math.floor(Math.random()*lorem.length)];    
     let randomQuote = ALorem.quote;
     let randomAuthor = ALorem.by;
     newQuote.push(randomQuote);
